@@ -10,3 +10,5 @@ It might be linked to the Dependency Injection, because this bug only occurs whe
 Even though it's bad to use scoped instances in a singleton constructor and cache them, this shouldn't cause a StackOverflowException
 
 My guess is that the bug is related to Microsoft.AspNet.Loader.IIS.Infrastructure.ClientDisconnectedTokenUtil.
+
+Related Issue: https://github.com/aspnet/Home/issues/815
