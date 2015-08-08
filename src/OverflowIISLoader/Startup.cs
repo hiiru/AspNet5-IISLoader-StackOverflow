@@ -12,7 +12,7 @@ namespace OverflowIISLoader
         
         public void ConfigureServices(IServiceCollection services)
         {
-            //Only occurs if AccountManager is registered as Singleton
+            //Only occurs if OverflowManager is registered as Singleton
             services.AddSingleton(typeof(OverflowManager));
             //This one works:
             //services.AddScoped(typeof(OverflowManager));
